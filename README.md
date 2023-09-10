@@ -42,26 +42,26 @@ This project is a Disease Prediction System that uses machine learning models to
 predictions = predictDisease(symptoms)
 print(predictions)
 
-##Data
+## Data
 1. The training data is provided in the Training.csv file. It should contain columns for symptoms and the target variable (prognosis).
 2. The test data is provided in the Testing.csv file. It should have the same format as the training data.
 
-##Models
+## Models
 
 1. The project uses three machine learning models: Support Vector Classifier (SVC), Naive Bayes, and Random Forest.
 2. Model performance is evaluated using cross-validation and accuracy metrics.
 
-##Symptom Prediction
+## Symptom Prediction
 1. The predictDisease function takes a list of symptoms as input and predicts the disease using the trained models. It returns a dictionary with predictions from each model and the final combined prediction.
 
-##Files
+## Files
 1. 'main.py': The main script that performs data preprocessing, model training, and prediction.
 2. Training.csv: The training dataset.
 3. Testing.csv: The test dataset.
 4. svm.pkl: A serialized pickle file containing the trained SVM model.
 5. rf.pkl: A serialized pickle file containing the trained Random Forest model.
 
-##Contributing
+## Contributing
 Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
 
 1. Fork the repository.
